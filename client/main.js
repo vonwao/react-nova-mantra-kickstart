@@ -7,6 +7,7 @@ import commentsModule from './modules/comments';
 
 import _usersModule from './modules/_users';
 import _colorsModule from './modules/_colors';
+import novaDemo from './modules/nova-demo';
 
 // init context
 const context = initContext();
@@ -17,5 +18,8 @@ app.loadModule(coreModule);
 app.loadModule(commentsModule);
 app.loadModule(_usersModule);
 app.loadModule(_colorsModule);
+app.loadModule(novaDemo);
 
 app.init();
+
+//import './modules/nova-demo/demo-app.jsx'

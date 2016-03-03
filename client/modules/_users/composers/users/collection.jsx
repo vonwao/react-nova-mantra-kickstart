@@ -1,5 +1,5 @@
 // import Component from '../components/Users/UsersCollection.jsx';
-import {useDeps} from 'react-simple-di';
+import {useDeps} from 'mantra-core';
 import {composeWithTracker, composeAll} from 'react-komposer';
 
 export const composer = ({context}, onData) => {

@@ -30,3 +30,9 @@ jagi:astronomy-slug-behavior
 jagi:astronomy-timestamp-behavior
 jagi:astronomy-validators
 email
+aldeed:collection2
+nova:core
+utilities:smart-publications
+utilities:smart-methods
+alt:react-accounts-ui
+
